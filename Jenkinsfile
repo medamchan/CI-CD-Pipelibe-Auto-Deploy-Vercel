@@ -23,7 +23,7 @@ pipeline{
         }
         stage('Deploy'){
             steps{
-                bat 'npx vercel --prod --yes --token=%VERCEL_TOKEN%'
+                bat 'npx vercel --prod --yes --name grocery-ecommerce --token=%VERCEL_TOKEN%'
             }
         }
     }
