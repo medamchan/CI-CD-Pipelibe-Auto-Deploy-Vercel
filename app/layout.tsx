@@ -2,7 +2,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 
 export const metadata = {
-  title: "Grocery E-commerce",
+  title: "Grocery Store E-commerce",
 };
 
 export default function RootLayout({
